@@ -67,12 +67,12 @@ function main() {
         if (selected && computer &&
             selected.classList.contains("rock") &&
             computer.classList.contains("rock")) {
-            document.querySelector(".playbtn").innerHTML = "It's a tie";
+            document.querySelector(".playbtn").innerHTML = "It's a tie😅";
         }
         else if (selected && computer &&
             selected.classList.contains("paper") &&
             computer.classList.contains("paper")) {
-            document.querySelector(".playbtn").innerHTML = "It's a tie";
+            document.querySelector(".playbtn").innerHTML = "It's a tie😅";
         }
         else if (selected && computer &&
             selected.classList.contains("scissors") &&
@@ -109,6 +109,9 @@ function main() {
             selected.classList.contains("scissors") &&
             computer.classList.contains("rock")) {
             document.querySelector(".playbtn").innerHTML = "You lost😥";
+        }
+        else{
+            document.querySelector(".playbtn").innerHTML = "No input..";
         }
         document.body.querySelector(".retry").style.display="block"
     }
