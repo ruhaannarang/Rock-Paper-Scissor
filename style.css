@@ -45,6 +45,8 @@ body{
     border: 1px solid white;
     background-color: rgba(0, 0, 0, 0.399);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .select{
     font-size: xx-large;
@@ -62,4 +64,17 @@ body{
 .selected{
     border: 2px solid black;
     transform: scale(1.1);
+}
+.computerGenerated{
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+.choices{
+    text-align: center;
+    color: white;
+    padding: 0 10px;
+}
+.retry{
+    margin-top: 10px;
+    display: none;
 }
